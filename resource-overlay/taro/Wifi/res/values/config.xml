@@ -7,6 +7,9 @@
     <!-- Integer indicating maximum hardware supported client number of soft ap -->
     <integer name="config_wifiHardwareSoftapMaxClientCount">10</integer>
 
+    <!-- Boolean indicating whether 802.11r Fast BSS Transition is enabled on this platform -->
+    <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
+
     <!-- Indicates that bridged AP mode is supported on this device provided that
      the device interface combination allows for it -->
     <bool name="config_wifiBridgedSoftApSupported">true</bool>
