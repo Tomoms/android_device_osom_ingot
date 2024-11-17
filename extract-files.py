@@ -68,7 +68,7 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|vendor_audio).*\n', ''),
     'vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy': blob_fixup()
         .add_line_if_missing('setsockopt: 1'),
-    'vendor/etc/seccomp_policy/wfdhdcphalservice.policy': blob_fixup()
+    ('vendor/etc/seccomp_policy/wfdhdcphalservice.policy', 'vendor/etc/seccomp_policy/modemManager.policy'): blob_fixup()
         .add_line_if_missing('gettid: 1'),
     'vendor/lib64/libgrpc++_unsecure_prebuilt.so': blob_fixup()
         .fix_soname(),
