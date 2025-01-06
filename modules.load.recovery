@@ -138,7 +138,6 @@ mhi_dev_net.ko
 mhi_dev_netdev.ko
 mhi_dev_uci.ko
 microdump_collector.ko
-minidump.ko
 msm-cvp.ko
 msm-eva.ko
 msm-geni-se.ko
