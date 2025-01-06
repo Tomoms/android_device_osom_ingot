@@ -129,7 +129,6 @@ mem-offline.ko
 mem_buf.ko
 mem_buf_dev.ko
 memlat.ko
-memory_dump_v2.ko
 mhi.ko
 mhi_cntrl_qcom.ko
 mhi_dev_drv.ko
