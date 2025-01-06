@@ -101,7 +101,6 @@ ipa_clientsm.ko
 ipa_fmwk.ko
 ipam.ko
 ipanetm.ko
-kryo_arm64_edac.ko
 leds-qpnp-vibrator-ldo.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
@@ -222,7 +221,6 @@ qcom-vadc-common.ko
 qcom_aoss.ko
 qcom_cpu_vendor_hooks.ko
 qcom_dma_heaps.ko
-qcom_edac.ko
 qcom_esoc.ko
 qcom_gic_intr_routing.ko
 qcom_glink.ko
