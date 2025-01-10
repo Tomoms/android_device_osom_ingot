@@ -48,6 +48,7 @@ ro.bluetooth.a2dp_offload.supported=true
 
 # Camera
 ro.camera.enableCamera1MaxZsl=1
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.osomprivacy.camera
 
 # Crypto
 ro.crypto.metadata_init_delete_all_keys.enabled=true
