@@ -71,7 +71,6 @@ gplaf_scmi.ko
 shared_rail_scmi.ko
 qdss_bridge.ko
 memlat.ko
-qcom_logbuf_vendor_hooks.ko
 panel_event_notifier.ko
 qcom_sync_file.ko
 hung_task_enh.ko
