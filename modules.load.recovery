@@ -247,7 +247,6 @@ qti-adc-tm.ko
 qti-fixed-regulator.ko
 qti_amoled_ecm.ko
 qti_battery_charger_main.ko
-qti_battery_debug.ko
 qti_cpufreq_cdev.ko
 qti_devfreq_cdev.ko
 qti_qmi_cdev.ko
