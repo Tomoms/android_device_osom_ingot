@@ -49,7 +49,6 @@ sensors_ssc.ko
 glink_pkt.ko
 glink_probe.ko
 pmic_glink.ko
-qti_battery_debug.ko
 altmode-glink.ko
 pmic-pon-log.ko
 spss_utils.ko
