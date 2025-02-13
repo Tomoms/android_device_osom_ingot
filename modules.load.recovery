@@ -187,7 +187,6 @@ q6_pdr_dlkm.ko
 qbt_handler.ko
 qce50.ko
 qcedev-mod.ko
-qcom-cpufreq-hw-debug.ko
 qcom-cpufreq-hw.ko
 qcom-dcvs.ko
 qcom-dload-mode.ko
