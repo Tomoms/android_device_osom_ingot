@@ -176,7 +176,6 @@ gh_virtio_backend.ko
 qcom-spmi-adc5.ko
 qcom-vadc-common.ko
 nvmem_qfprom.ko
-qnoc-parrot.ko
 slimbus.ko
 slim-qcom-ngd-ctrl.ko
 hwmon.ko
