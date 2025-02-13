@@ -298,11 +298,6 @@ spss_utils.ko
 st21nfc.ko
 st33spi.ko
 st54spi.ko
-stm_console.ko
-stm_core.ko
-stm_ftrace.ko
-stm_p_basic.ko
-stm_p_ost.ko
 stub-regulator.ko
 stub_dlkm.ko
 subsystem_sleep_stats.ko
