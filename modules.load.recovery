@@ -295,7 +295,6 @@ socinfo.ko
 spcom.ko
 spf_core_dlkm.ko
 spi-msm-geni.ko
-spmi-glink-debug.ko
 spmi-pmic-arb-debug.ko
 spmi-pmic-arb.ko
 sps_drv.ko
