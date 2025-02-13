@@ -81,7 +81,6 @@ hyp_core_ctl.ko
 i2c-msm-geni.ko
 i3c-master-msm-geni.ko
 icc-bcm-voter.ko
-icc-debug.ko
 icc-rpmh.ko
 iommu-logger.ko
 ipa_clientsm.ko
@@ -232,7 +231,6 @@ qcom_wdt_core.ko
 qdss_bridge.ko
 qfprom-sys.ko
 qmi_helpers.ko
-qnoc-parrot.ko
 qnoc-qos.ko
 qnoc-waipio.ko
 qpnp-amoled-regulator.ko
