@@ -100,8 +100,6 @@ lpass_cdc_wsa2_macro_dlkm.ko
 lpass_cdc_wsa_macro_dlkm.ko
 lt9611uxc.ko
 lvstest.ko
-lzo-rle.ko
-lzo.ko
 mac80211.ko
 machine_dlkm.ko
 mbhc_dlkm.ko
