@@ -410,7 +410,7 @@
     <integer name="config_defaultRefreshRate">0</integer>
 
     <!-- The default peak refresh rate. -->
-    <integer name="config_defaultPeakRefreshRate">120</integer>
+    <integer name="config_defaultPeakRefreshRate">90</integer>
 
     <!-- The display uses different gamma curves for different refresh rates. It's hard for panel
          vendor to tune the curves to have exact same brightness for different refresh rate. So
@@ -421,14 +421,14 @@
          For example, no higher refresh rate if display brightness <= disp0 && ambient brightness <= amb0 
          || display brightness <= disp1 && ambient brightness <= amb1 -->
     <integer-array name="config_brightnessThresholdsOfPeakRefreshRate">
-        <item>90</item> <!-- UI brightness -->
+        <item>70</item> <!-- UI brightness -->
     </integer-array>
     <integer-array name="config_ambientThresholdsOfPeakRefreshRate">
         <item>1500</item> <!-- Lux Level -->
     </integer-array>
 
     <!-- default refresh rate in the zone defined by birghtness and ambient thresholds -->
-    <integer name="config_defaultRefreshRateInZone">120</integer>
+    <integer name="config_defaultRefreshRateInZone">90</integer>
 
     <!-- Preferred max refresh rate at keyguard, if supported by the display. -->
     <integer name="config_keyguardMaxRefreshRate">60</integer>
