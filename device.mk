@@ -54,7 +54,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AODOverlay \
     ATTCallForwadingOverlay \
-    DefaultSettingsProviderOverlay \
     DisplayOverlay \
     EssentialNotchOverlay \
     FingerprintOverlay \
