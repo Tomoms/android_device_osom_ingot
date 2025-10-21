@@ -47,7 +47,10 @@ persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
 ro.bluetooth.a2dp_offload.supported=true
 
 # Camera
+persist.vendor.camera.privapp.list=org.lineageos.aperture,com.osomprivacy.camera
+persist.vendor.camera.multicam.multicameralogicalxmlfile=taro_ingot.xml
 ro.camera.enableCamera1MaxZsl=1
+vendor.camera.aux.packagelist=org.lineageos.aperture,com.osomprivacy.camera
 
 # Crypto
 ro.crypto.metadata_init_delete_all_keys.enabled=true
