@@ -1,5 +1,8 @@
 # Audio
 /(mnt/vendor/persist|persist)/audio/audio.cal   u:object_r:vendor_persist_audio_file:s0
 
+# Camera
+/vendor/lib64/camera/arcsoft_dualcam_calibration.bin u:object_r:vendor_app_file:s0
+
 # Fingerprint
 /dev/blfp   u:object_r:betterlife_device:s0
