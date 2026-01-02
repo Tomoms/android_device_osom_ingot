@@ -1,0 +1,21 @@
+type osom_camera_app, domain, coredomain;
+typeattribute osom_camera_app system_executes_vendor_violators;
+typeattribute osom_camera_app mlstrustedsubject;
+permissive osom_camera_app;
+
+type osom_camera_app_data_file, file_type, data_file_type, app_data_file_type;
+
+app_domain(osom_camera_app)
+net_domain(osom_camera_app)
+
+get_prop(osom_camera_app, vendor_camera_prop)
+
+r_dir_file(osom_camera_app, vendor_file)
+r_dir_file(osom_camera_app, adsprpcd_file)
+
+dontaudit osom_camera_app apex_info_file:file { getattr read };
+dontaudit osom_camera_app build_attestation_prop:file read;
+dontaudit osom_camera_app idmap_exec:file execute;
+dontaudit osom_camera_app qemu_sf_lcd_density_prop:file read;
+dontaudit osom_camera_app sysfs_fs_f2fs:dir search;
+dontaudit osom_camera_app system_file:file lock;
