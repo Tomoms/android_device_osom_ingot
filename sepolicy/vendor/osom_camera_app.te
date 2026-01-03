@@ -10,7 +10,7 @@ net_domain(osom_camera_app)
 
 get_prop(osom_camera_app, vendor_camera_prop)
 
-r_dir_file(osom_camera_app, vendor_app_file)
+r_dir_file(osom_camera_app, vendor_file)
 r_dir_file(osom_camera_app, adsprpcd_file)
 
 dontaudit osom_camera_app apex_info_file:file { getattr read };
