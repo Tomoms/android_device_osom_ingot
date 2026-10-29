@@ -155,7 +155,7 @@ PRODUCT_COPY_FILES += \
 $(call soong_config_set,android_hardware_audio,run_64bit,true)
 
 # Dalvik
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-12288-dalvik-heap.mk)
 
 # Dexopt
 PRODUCT_SYSTEM_PROPERTIES += \
