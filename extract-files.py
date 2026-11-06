@@ -89,6 +89,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_line_if_missing('uname: 1'),
     ('vendor/etc/seccomp_policy/modemManager.policy'): blob_fixup()
         .add_line_if_missing('gettid: 1'),
+    'vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini': blob_fixup()
+        .regex_replace('gEnableNUDTracking=1', 'gEnableNUDTracking=2'),
     'vendor/lib64/hw/com.qti.chi.override.so': blob_fixup()
         .binary_regex_replace(
               b'\xe8\x0b\x40\xf9\xc8\x00\x00\xb4\x08\x01\x40\x39',
